@@ -6,7 +6,7 @@ export default function Contact() {
     const gitHub = "https://github.com/edgarlb";
 
     return (
-        <div id="contact" className="contact">
+        <div id="contact" className="section">
             <h3>Get In Touch</h3>
             <div className="contact-container">
                 <p><span><i className="fa-regular fa-envelope"></i></span> {email}</p>

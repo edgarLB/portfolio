@@ -4,6 +4,7 @@ import Projects from "./components/Projects.jsx";
 import useScreenSize from "./components/useScreenSize.jsx";
 import NavBar from "./components/NavBar.jsx";
 import Contact from "./components/Contact.jsx";
+import Technologies from "./components/Technologies.jsx";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <NavBar isSmallScreen={isSmallScreen} />
         <div className="container">
             <Landing isSmallScreen={isSmallScreen} />
+            <Technologies/>
             <Projects/>
             <Contact/>
         </div>
