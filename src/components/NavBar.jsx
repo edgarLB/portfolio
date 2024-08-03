@@ -27,11 +27,11 @@ export default function NavBar( props ) {
     return (
         <div className="nav-bar">
             <div className="nav-bar-container">
-                {showName && <li className="nav-logo">{!isSmallScreen ? "Edgar Rodriguez" : "Edgar Rodriguez"}</li>}
+                {showName && <li className="nav-logo"><a href="#root">Edgar Rodriguez</a></li>}
                 <div></div>
                 <ul>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#projects">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a href="">Resume</a></li>
                 </ul>
             </div>

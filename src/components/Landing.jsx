@@ -40,6 +40,7 @@ export default function Landing( props ) {
                     love to experiment with TensorFlow, PyTorch, and A.I. models. Topics I enjoy exploring are: AI,
                     Genetics, Business and Quantum Computing.</p>
             </div>
+            <div id="projects"></div>
         </div>
 
 
