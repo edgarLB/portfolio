@@ -33,12 +33,7 @@ export default function Landing( props ) {
             )}
             <div>
 
-                <p> I’m an ambitious and passionate Software Engineer with an entrepreneurial mindset. I enjoy exploring
-                    the possibilities of technology and software. I have experience helping businesses integrate
-                    solutions towards their vision and growth, working as a Full-Stack Software Engineer, Project
-                    Manager and Engineering Lead. My favorite programming languages include JavaScript and Python. I
-                    love to experiment with TensorFlow, PyTorch, and A.I. models. Topics I enjoy exploring are: AI,
-                    Genetics, Business and Quantum Computing.</p>
+                <p> I am a recent computer science graduate eager to leverage my experience and passion in a software engineering role. While my background as a graphic designer naturally gravitates me towards front-end development, I also garner strong skills in back-end development. My experience spans from collaborating in a team to build web apps, to teaching the next generation of coders. My favorite programming languages are JavaScript and Python. As technology constantly evolves, I find it both exciting and essential to keep learning and staying up-to-date with new developments. In my free time, I enjoy coding iOS apps because I like seeing my ideas come to life. </p>
             </div>
         </div>
 
