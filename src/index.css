@@ -2,11 +2,14 @@
   font-family: "Space Mono";
   background-color: #f9f4f0;
 
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -120,17 +123,17 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   width: calc(33.33% - 1em);
+  gap: 0.7em;
 }
 
 .project h4{
   font-size: 1.15em;
-  margin-top: 0.5em;
-  margin-bottom: 0em;
+  margin: 0;
 }
 
 .project p {
   margin: 0em;
-  font-size: 0.9em;
+  font-size: 0.75em;
 }
 
 .project-button {
@@ -178,6 +181,13 @@ h3 {
 .details {
   font-weight: bold;
   font-size: 1.2em;
+}
+
+.details-double {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
 }
 
 .nav-bar {
@@ -270,6 +280,23 @@ h3 {
   border-radius: 10px;
   margin: 0;
 }
+
+.mini-techs-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin-top: -0.5em;
+}
+
+.mini-techs-container p {
+  font-size: 0.6em;
+  padding-inline: 0.8em;
+  padding-block: 0.2em;
+  border: solid 0.6px;
+  border-radius: 10px;
+  margin: 0;
+}
+
 @media (max-width: 900px) {
   h1{
     font-size: 2.8em;
@@ -313,6 +340,9 @@ h3 {
   .projects-grid {
     display: flex;
     flex-wrap: wrap;
+  }
+  .mini-techs-container p {
+    font-size: 0.7em;
   }
 }
 @media (max-width: 560px) {

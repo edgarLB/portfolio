@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-
+import Resume from "../pdfs/Edgar_Rodriguez_Resume.pdf";
 export default function NavBar( props ) {
     const { isSmallScreen } = props;
     const [showName, setShowName] = React.useState(false);
@@ -32,7 +32,7 @@ export default function NavBar( props ) {
                 <ul>
                     <li><a href="#projects">Work</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="">Resume</a></li>
+                    <li><a href={Resume}>Resume</a></li>
                 </ul>
             </div>
         </div>
